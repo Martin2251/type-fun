@@ -1,9 +1,17 @@
 import React from "react";
 import {Wrapper} from "./Card.styles";
 
-const Card = () => (
+
+type Props = {
+    name: string;
+    imgUrl: string;
+
+};
+
+const Card: React.FC<Props> = ({name, imgUrl}) => (
     <Wrapper>
-        <p>Card Component</p>
+        <p>{name}</p>
+        <p>{imgUrl}</p>
     </Wrapper>
 
 

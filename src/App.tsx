@@ -4,7 +4,7 @@ import Card from "./components/Card";
 const App: React.FC = () => {
   return (
  <Wrapper>
-   <p>start here </p>
+   <Card name="martin lowe" imgUrl="url"/>
  </Wrapper>
   );
 }
